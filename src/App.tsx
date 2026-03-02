@@ -347,7 +347,7 @@ export default function App() {
             {/* Title & Master Time */}
             <div className="flex items-center gap-8">
               <div className="text-left">
-                <h1 className="text-xs font-bold uppercase tracking-widest opacity-50 mb-1 font-mono">Master Timer</h1>
+                <h1 className="text-xs font-bold uppercase tracking-widest opacity-50 mb-1 font-mono">Track Timer</h1>
                 <div className="text-5xl md:text-7xl font-mono font-medium tracking-tighter tabular-nums leading-none">
                   {formatTime(masterTime)}
                 </div>
